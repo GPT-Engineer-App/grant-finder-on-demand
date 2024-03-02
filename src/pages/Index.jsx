@@ -4,23 +4,22 @@ import { FaSearch, FaMapMarkerAlt, FaCalendarAlt } from "react-icons/fa";
 const grants = [
   {
     id: 1,
-    title: "Small Business Innovation Research Program",
+    title: "Tech Startups Growth Fund",
     agency: "Department of Commerce",
-    deadline: "2023-05-15",
+    deadline: "2024-04-30",
   },
   {
     id: 2,
-    title: "Renewable Energy Development Grants",
+    title: "Clean Energy Research Grants",
     agency: "Department of Energy",
-    deadline: "2023-06-30",
+    deadline: "2024-08-15",
   },
   {
     id: 3,
-    title: "Educational Grants for Schools",
+    title: "Innovation in Education Grants",
     agency: "Department of Education",
-    deadline: "2023-07-20",
+    deadline: "2024-09-10",
   },
-  // ... more grants
 ];
 
 const GrantCard = ({ grant }) => {
